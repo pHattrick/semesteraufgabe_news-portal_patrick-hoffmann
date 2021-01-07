@@ -49,6 +49,13 @@ div[class^="card-"] {
   }
 }
 
+.column-3bg {
+  grid-column: span 12;
+  @include media(m) {
+    grid-column: span 3;
+  }
+}
+
 .column-4 {
   grid-column: span 12;
   @include media(m) {
@@ -56,14 +63,52 @@ div[class^="card-"] {
   }
 }
 
-.column-5to12 {
-  grid-column-start: 2;
-  grid-column-end: span 11;
+// .column-5to12 {
+//   grid-column-start: 2;
+//   grid-column-end: span 11;
+//   @include media(m) {
+//     grid-column-start: 5;
+//     grid-column-end: span 8;
+//   }
+// }
+
+.column-1to6 {
+  grid-column-start: 1;
+  grid-column-end: span 12;
   @include media(m) {
-    grid-column-start: 5;
-    grid-column-end: span 8;
+    grid-column-start: 1;
+    grid-column-end: span 6;
   }
 }
+
+.column-1to10 {
+  grid-column-start: 1;
+  grid-column-end: span 12;
+  @include media(m) {
+    grid-column-start: 1;
+    grid-column-end: span 9;
+  }
+}
+
+.column-7to9 {
+  grid-column-start: 1;
+  grid-column-end: span 12;
+  @include media(m) {
+    grid-column-start: 7;
+    grid-column-end: span 3;
+  }
+}
+
+.column-10to12 {
+  grid-column-start: 1;
+  grid-column-end: span 12;
+  @include media(m) {
+    grid-column-start: 10;
+    grid-column-end: span 3;
+    background-color: grey;
+  }
+}
+
 
 // 12er × 12er Grid
 .grid-12-6 {
