@@ -23,4 +23,4 @@ html {
 }
 ```
 
-Bei dieser Anwendung wir dmit zunehmender Grösse des Viewports auch die `font-size` vergrössert.
+Bei dieser Anwendung wird mit zunehmender Grösse des Viewports auch die `font-size` vergrössert.

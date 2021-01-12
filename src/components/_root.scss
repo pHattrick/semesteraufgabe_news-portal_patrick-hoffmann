@@ -13,6 +13,7 @@ html {
   @include media(m) {
     font-size: 18px;
   }
+  // Desktop
   @include media(l) {
     font-size: 20px;
   }
