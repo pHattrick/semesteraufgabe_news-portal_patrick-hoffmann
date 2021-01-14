@@ -25,8 +25,11 @@ div[class^="card-"] {
 }
 
 .column-header {
-  background-color: blue;
+  background-color: #d7dcee;
   height: 5rem;
+  padding-left: 20px;
+  padding-top: 30px;
+
 }
 
 .column-nav {
@@ -45,6 +48,7 @@ div[class^="card-"] {
 
 // Hauptbeitrag
 .column-1to6 {
+  position: relative;
   grid-column-start: 1;
   grid-column-end: span 12;
   @include media(m) {
@@ -59,6 +63,31 @@ div[class^="card-"] {
   }
 }
 
+.column--line-bottom {
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+  }
+}
+
+.column--line-right {
+  &::before {
+    @include media(l) {
+      content: "";
+      position: absolute;
+      right: -5px;
+      top: 0;
+      height: 100%;
+      width: 1px;
+      background-color: black;
+    }
+  }
+}
 
 .column-1 {
   grid-column: span 12;
@@ -75,6 +104,7 @@ div[class^="card-"] {
 }
 
 .column-3 {
+  position: relative;
   grid-column-end: span 12;
   @include media(m) {
     grid-column-end: span 6;
@@ -83,24 +113,15 @@ div[class^="card-"] {
       grid-column: span 3;
       height: 34rem;
       margin-top: 0.5em;
-      // background-color: blue;
+
     }
   }
 }
 
-.column-3bg {
-  grid-column: span 12;
-  @include media(m) {
-    grid-column: span 3;
-  }
+.teaser {
+  position: relative;
 }
 
-.column-4 {
-  grid-column: span 12;
-  @include media(m) {
-    grid-column: span 4;
-  }
-}
 
 .column-1to9 {
   grid-column-start: 1;
@@ -136,6 +157,9 @@ div[class^="card-"] {
 .column-12 {
   grid-column: span 12;
 }
+
+
+
 
 
 
