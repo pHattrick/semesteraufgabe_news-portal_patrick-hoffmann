@@ -1,8 +1,8 @@
 .like__btn {
-  color: inherit;
+  // color: inherit;
   border: 0;
   box-shadow: none;
-  background-color: #dddddd;
+  // background-color: #dddddd;
   text-shadow: none;
   margin: 0;
   padding: 0;
@@ -10,6 +10,8 @@
   line-height: inherit;
   font-size: inherit;
   font-family: inherit;
+  justify-content:flex-end;
+  text-align: right;
 
   &:focus {
     outline: 0 !important;

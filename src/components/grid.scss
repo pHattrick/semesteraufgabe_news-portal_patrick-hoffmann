@@ -33,7 +33,7 @@ div[class^="card-"] {
 }
 
 .column-nav {
-  background-color: red;
+  background-color: black;
   height: 3rem;
 }
 
@@ -41,9 +41,10 @@ div[class^="card-"] {
   position: absolute;
   width: 160px;
   height: 600px;
-  background-color: green;
+  // background-color: green;
   top: 0;
   right: -180px;
+  text-align: center;
 }
 
 // Hauptbeitrag
@@ -157,6 +158,7 @@ div[class^="card-"] {
 .column-12 {
   grid-column: span 12;
 }
+
 
 
 

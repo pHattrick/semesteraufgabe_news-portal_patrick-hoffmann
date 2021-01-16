@@ -2,14 +2,20 @@
 
 a {
   text-decoration: none;
-  color: red;
+  color: white;
   border-bottom: 2px solid transparent;
+  font-size: 16px;
 }
 
-a:visited {
-  color: green;
+a.nav__item--active {
+  border-color: white;
 }
+
+// a:visited {
+//   color: green;
+// }
 
 a:hover {
-  color: inherit;
+  // color: #8c8c8c;
+  border-color: #e6e6e6;
 }
