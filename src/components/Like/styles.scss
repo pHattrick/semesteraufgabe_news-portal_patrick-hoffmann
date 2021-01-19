@@ -8,7 +8,7 @@
   padding: 0;
   cursor: pointer;
   line-height: inherit;
-  font-size: inherit;
+  font-size: 16px;
   font-family: inherit;
   justify-content:flex-end;
   text-align: right;
@@ -16,4 +16,9 @@
   &:focus {
     outline: 0 !important;
   }
+}
+
+.like-count {
+  font-size: 16px;
+  margin-top: 3rem;
 }

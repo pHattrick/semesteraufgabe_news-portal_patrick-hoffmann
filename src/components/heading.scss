@@ -30,6 +30,7 @@ h1 {
   @include media(l) {
     font-size: 1rem * $font-scale--l * $font-scale--l;
     line-height: normal;
+    margin-bottom: 0.6em;
 
 color: black;
   }
@@ -61,10 +62,13 @@ h4 {
   font-size: 0.6rem;
   line-height: normal;
   color: #7f64f5;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
 }
 
 h5 {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   font-weight: 300;
   color: green;
+  margin-bottom: 1em;
 }
