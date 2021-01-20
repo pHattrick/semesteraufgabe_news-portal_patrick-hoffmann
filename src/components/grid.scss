@@ -129,7 +129,7 @@ div[class^="card-"] {
   grid-column-end: span 12;
   @include media(m) {
     grid-column-start: 1;
-    grid-column-end: span 9;
+    grid-column-end: span 12;
   }
 }
 
@@ -156,7 +156,7 @@ div[class^="card-"] {
 }
 
 .column-12 {
-  grid-column: span 12;
+  grid-column-end: span 12;
 }
 
 .teaser {
@@ -164,7 +164,7 @@ div[class^="card-"] {
 }
 
 .footer-container {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
