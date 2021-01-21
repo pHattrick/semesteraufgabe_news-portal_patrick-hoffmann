@@ -30,6 +30,7 @@ div[class^="card-"] {
   padding-left: 10px;
   padding-top: 20px;
   font-family: 'Slabo 27px', serif;
+  color: #009988;
   font-size: 30px;
   display: flex;
   justify-content: space-between;
@@ -67,6 +68,10 @@ div[class^="card-"] {
   }
 }
 
+.divider-bold {
+  height: 3px;
+  background-color: black;
+}
 
 .column--line-bottom {
   &::after {
@@ -85,7 +90,7 @@ div[class^="card-"] {
     @include media(l) {
       content: "";
       position: absolute;
-      right: -14px;
+      right: -13px;
       top: 0;
       height: 100%;
       width: 1px;
