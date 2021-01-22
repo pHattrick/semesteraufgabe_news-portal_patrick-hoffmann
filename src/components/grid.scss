@@ -27,13 +27,25 @@ div[class^="card-"] {
 
 .column-header {
   height: 4rem;
+  color: #009988;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
   padding-left: 10px;
   padding-top: 20px;
   font-family: 'Slabo 27px', serif;
-  color: #009988;
+  letter-spacing: 0.03em;
   font-size: 30px;
-  display: flex;
-  justify-content: space-between;
+}
+
+.wetter {
+  padding-top: 20px;
+}
+
+.menu {
+  padding-top: 26px;
 }
 
 .column-nav {
@@ -63,7 +75,7 @@ div[class^="card-"] {
       grid-column-start: 1;
       grid-column-end: span 6;
       height: 34rem;
-      margin-top: 1em;
+      margin-top: 0.5em;
     }
   }
 }
@@ -121,7 +133,6 @@ div[class^="card-"] {
     @include media(l) {
       // grid-column-start: 10;
       grid-column: span 3;
-      height: 34rem;
       margin-top: 0.5em;
 
     }

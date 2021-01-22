@@ -19,5 +19,11 @@
 
 .like-count {
   font-size: 14px;
-  margin-top: 3rem;
+  display: inline-block;
+  transform: translate(-0.1rem, -0.05rem);
+}
+
+.like-icon {
+  display: inline-block;
+  transform: translate(-0.2rem, 0.09rem);
 }
